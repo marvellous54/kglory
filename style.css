@@ -114,6 +114,12 @@ nav ul a:hover{
     cursor: pointer;
 }
 
+.message-sent{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 /* ---------- MEDIA_QUERY ---------------- */
 @media all and (max-width: 500px){
