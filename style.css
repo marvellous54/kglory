@@ -121,6 +121,10 @@ nav ul a:hover{
 	align-items: center;
 }
 
+.message-sent h1{
+	color: yellow;
+}	
+
 /* ---------- MEDIA_QUERY ---------------- */
 @media all and (max-width: 500px){
     nav ul a {
