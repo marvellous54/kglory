@@ -145,3 +145,10 @@ nav ul a:hover{
         display: block;
     }
 }
+
+@media all and (min-width: 500px){
+	.fa-solid{
+		opacity: 0;
+		display: none;
+	}
+}	
