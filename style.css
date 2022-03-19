@@ -121,6 +121,7 @@ nav ul a:hover{
 
 .fa-solid{
     display: none;
+    position: absolute;
 }
 
 /* ---------- MEDIA_QUERY ---------------- */
@@ -138,7 +139,7 @@ nav ul a:hover{
     }
 
     .fa-solid{
-        color: rgb(104, 104, 96);
+        color: yellow;
         position: relative;
         top: 5em;
         transform: scale(2);
