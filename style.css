@@ -5,13 +5,14 @@
 	box-sizing: border-box;
     list-style: none;
     font-family: calibri;
+    text-decoration: none;
 }
 
 
 /* ----------- HEADER ---------------- */
 header{
     height: 100vh;
-    background-image: url(img/lash.jpg);
+    background-image: url(img/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -85,7 +86,7 @@ nav ul a:hover{
 #email{
     background-color: transparent;
     outline: none;
-    border: 1px solid lightgrey;
+    border: 1px solid black;
     height: 2em;
     text-align: center;
     display: block;
@@ -114,16 +115,13 @@ nav ul a:hover{
     cursor: pointer;
 }
 
-.message-sent{
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+::placeholder{
+    color: black;
 }
 
-.message-sent h1{
-	color: yellow;
-}	
+.fa-solid{
+    display: none;
+}
 
 /* ---------- MEDIA_QUERY ---------------- */
 @media all and (max-width: 500px){
@@ -136,6 +134,14 @@ nav ul a:hover{
     }
 
     header{
-        background-image: url(img/un.jpg);
+        background-image: url(img/phoneback.jpg);
+    }
+
+    .fa-solid{
+        color: rgb(104, 104, 96);
+        position: relative;
+        top: 5em;
+        transform: scale(2);
+        display: block;
     }
 }
