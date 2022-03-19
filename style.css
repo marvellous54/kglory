@@ -11,6 +11,7 @@
 body{
 	overflow-y: hidden;
 }
+
 /* ----------- HEADER ---------------- */
 header{
     height: 100vh;
@@ -123,7 +124,14 @@ nav ul a:hover{
 
 .fa-solid{
     display: none;
-    position: absolute;
+}
+
+#next{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
 }
 
 /* ---------- MEDIA_QUERY ---------------- */
@@ -141,16 +149,8 @@ nav ul a:hover{
     }
 
     .fa-solid{
-        color: yellow;
-        top: 75vh;
-        transform: scale(2);
+        color: rgb(249, 253, 0);
         display: block;
+        font-size: 2em;
     }
 }
-
-@media all and (min-width: 500px){
-	.fa-solid{
-		opacity: 0;
-		display: none;
-	}
-}	
